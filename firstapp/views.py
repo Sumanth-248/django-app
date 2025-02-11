@@ -7,3 +7,6 @@ def home(request):
 
 def main(request):
     return HttpResponse("Welcome")    
+
+def sample(request):
+    return HttpResponse("Hello, Sample")
