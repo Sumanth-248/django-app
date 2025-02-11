@@ -10,3 +10,8 @@ def main(request):
 
 def sample(request):
     return HttpResponse("Hello, Sample")
+
+def function(request):
+    return HttpResponse('Hello, function')
+
+    
